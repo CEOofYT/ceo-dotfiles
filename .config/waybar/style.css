@@ -1,0 +1,72 @@
+@import url("colors.css");
+
+* {
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+#clock,
+#custom-power,
+#workspaces,
+#tray,
+#network,
+#battery,
+#pulseaudio,
+#mpris {
+    background-color: alpha(@surface_container, 0.8);
+    color: @on_surface;
+    border-radius: 20px;
+    padding: 4px 15px;
+    margin: 0 5px;
+    border: 1px solid alpha(@outline, 0.2);
+}
+
+.modules-right > widget > box {
+    background-color: alpha(@surface_container, 0.8);
+    color: @on_surface;
+    border-radius: 20px;
+    padding: 4px 12px;
+    margin: 0 5px;
+    border: 1px solid alpha(@outline, 0.2);
+}
+
+.modules-right > widget > box widget {
+    background: transparent;
+    padding: 0 4px;
+}
+
+#workspaces {
+    padding: 2px 5px;
+}
+
+#workspaces button {
+    color: @outline;
+    padding: 0 10px;
+    margin: 2px;
+    border-radius: 15px;
+    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button.active {
+    color: @background;
+    background-color: @primary;
+    padding: 0 15px;
+}
+
+#battery.critical:not(.charging) {
+    color: @error;
+    animation: blink 0.5s linear infinite alternate;
+}
+
+@keyframes blink {
+    to { 
+        background-color: @error; 
+        color: @on_error; 
+    }
+}

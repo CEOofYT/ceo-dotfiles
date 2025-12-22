@@ -1,0 +1,15 @@
+# Colores generados por Matugen
+background = #141318
+foreground = #e6e1e9
+selection-background = #cdbdff
+selection-foreground = #34275e
+
+# Paleta básica
+palette = 0=#141318
+palette = 1=#ffb4ab
+palette = 2=#cdbdff
+palette = 4=#4b3e76
+
+background-opacity = 0.85
+background-blur-radius = 20
+window-decoration = false
