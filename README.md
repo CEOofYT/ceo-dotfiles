@@ -7,7 +7,7 @@
 This repository includes configuration for:
 
 * **Window Manager:** Hyprland
-* **Terminal:** Ghostty
+* **Terminal:** Kitty
 * **Shell:** zsh
 * **Prompt:** Oh-my-posh
 * **Status Bar:** Waybar

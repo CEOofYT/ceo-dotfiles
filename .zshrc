@@ -24,7 +24,7 @@ setwall() {
 }
 
 source <(fzf --zsh)
-eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/viet.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/catppuccin.omp.json)"
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000

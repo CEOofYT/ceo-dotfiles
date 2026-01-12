@@ -1,10 +1,10 @@
 * {
-    primary: #cdbdff;
-    on-primary: #34275e;
-    primary-fixed: #e8deff;
-    secondary-container: #494458;
-    on-primary-fixed: #1f1048;
-    on-surface: #e6e1e9;
-    on-secondary: #322e41;
+    primary: #c8bfff;
+    on-primary: #30285f;
+    primary-fixed: #e5deff;
+    secondary-container: #474459;
+    on-primary-fixed: #1b1249;
+    on-surface: #e5e1e9;
+    on-secondary: #312e41;
     error: #ffb4ab;
 }

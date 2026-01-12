@@ -23,7 +23,7 @@ window#waybar {
     color: @on_surface;
     border-radius: 20px;
     padding: 4px 15px;
-    margin: 0 5px;
+    margin: 0 4px;
     border: 1px solid alpha(@outline, 0.2);
 }
 
@@ -46,15 +46,21 @@ window#waybar {
 }
 
 #workspaces button {
-    color: @outline;
+    color: @on_surface;
     padding: 0 10px;
     margin: 2px;
     border-radius: 15px;
+    background: transparent;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
+#workspaces button:hover {
+    background-color: alpha(@primary, 0.3);
+    color: @primary;
+}
+
 #workspaces button.active {
-    color: @background;
+    color: @on_primary;
     background-color: @primary;
     padding: 0 15px;
 }
