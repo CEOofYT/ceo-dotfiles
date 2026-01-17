@@ -134,7 +134,7 @@
     
 "custom/power": {
 	"format": "⏻",
-        "on-click": "wlogout -b 5",
+        "on-click": "wlogout -b 3",
 	"on-click-right": "$HOME/.config/hypr/scripts/ChangeBlur.sh",
 	"tooltip": true,
 	"tooltip-format":"Logout Menu",

@@ -1,10 +1,18 @@
 * {
-    primary: #c8bfff;
-    on-primary: #30285f;
-    primary-fixed: #e5deff;
-    secondary-container: #474459;
-    on-primary-fixed: #1b1249;
-    on-surface: #e5e1e9;
-    on-secondary: #312e41;
+    /* 70% de transparencia (B3) */
+    main-bg: #1f1048b3;
+    
+    /* 40% de transparencia (66) */
+    main-fg: #34275e66;
+
+    primary: #cdbdff;
+    on-primary: #34275e;
+    secondary-container: #494458;
+    on-surface: #e6e1e9;
+    on-secondary: #322e41;
+    
+    /* Variables necesarias para tu config.rasi */
+    on-primary-fixed: #1f1048cc;
+    primary-fixed: #e8deff;
     error: #ffb4ab;
 }

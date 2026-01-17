@@ -1,13 +1,18 @@
 * {
-    /* Fondo principal con 70% de transparencia */
-    main-bg: rgba({{colors.on_primary_fixed.default.rgb.r}}, {{colors.on_primary_fixed.default.rgb.g}}, {{colors.on_primary_fixed.default.rgb.b}}, 0.7);
+    /* 70% de transparencia (B3) */
+    main-bg: {{colors.on_primary_fixed.default.hex}}b3;
     
-    /* Fondo de barras/botones con 40% de transparencia */
-    main-fg: rgba({{colors.on_primary.default.rgb.r}}, {{colors.on_primary.default.rgb.g}}, {{colors.on_primary.default.rgb.b}}, 0.4);
+    /* 40% de transparencia (66) */
+    main-fg: {{colors.on_primary.default.hex}}66;
 
     primary: {{colors.primary.default.hex}};
     on-primary: {{colors.on_primary.default.hex}};
     secondary-container: {{colors.secondary_container.default.hex}};
     on-surface: {{colors.on_surface.default.hex}};
     on-secondary: {{colors.on_secondary.default.hex}};
+    
+    /* Variables necesarias para tu config.rasi */
+    on-primary-fixed: {{colors.on_primary_fixed.default.hex}}cc;
+    primary-fixed: {{colors.primary_fixed.default.hex}};
+    error: {{colors.error.default.hex}};
 }
